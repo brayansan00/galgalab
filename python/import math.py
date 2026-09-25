@@ -37,7 +37,7 @@ P = masa_total * g  # [N] Carga aplicada
 #Si la carga se representa mediante dos fuerzas simétricas inclinadas 20◦, 
 # la magnitud de cada una debe ser:
 
-F = P / (2 * math.cos(20))  # [N] Magnitud de cada fuerza inclinada
+F = P / (2 * math.cos(math.radians(20)))  # [N] Magnitud de cada fuerza inclinada
 
 # solo se calculan las fuerzas en Y devido a que las Fuerzas en x se cancelan entre sí, 
 # por lo que la fuerza resultante es la suma de las fuerzas en Y.
@@ -58,7 +58,7 @@ Xg = inicio_soporte_galga + longitud_soporte_galga / 2  # [mm] Coordenada X del 
 
 a = posicion_carga - Xg  # [mm] Distancia desde la carga hasta el centro de la galga
 
-M = F * a  # [N·mm] Momento flector en la galga extensiométrica
+M = p * a  # [N·mm] Momento flector en la galga extensiométrica
 
 #Esfuerzo normal por flexión en la galga extensiométrica
 sigma = M * C / I  # [MPa] Esfuerzo normal por flexión
@@ -73,7 +73,7 @@ epsilon_i= 11.418 # [MPa]
 epsilon_f= 11.192 # [MPa] 
 
 epsilon_promedio = (epsilon_i + epsilon_f) / 2  # [MPa] Promedio de la deformación sobre la rejilla sensible
-
+epsilon_micro = epsilon * 1e6
 #imprimir resultados
 print("Masa total:", masa_total, "kg")
 print("Carga aplicada:", P, "N")
