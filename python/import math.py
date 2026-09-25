@@ -10,14 +10,14 @@ material = "Aluminio 1100"
 E = 69000       # [MPa] Módulo de elasticidad
 masa_pesa = 5.0 # [kg]
 masa_accesorios = 0.073  # [kg] Tornillo y arandelas
-g = 9.807       # [m/s²] Gravedad
+g = 9.81     # [m/s²] Gravedad
 
 ancho_exterior = 70.0   # [mm]
 alto_exterior = 30.0    # [mm]
 espesor = 1.0           # [mm]
 longitud_total = 746.0  # [mm]
 
-posicion_carga = 707.0         # [mm]
+posicion_carga = 711     # [mm]
 inicio_soporte_galga = 198.0   # [mm]
 longitud_soporte_galga = 15.0  # [mm]
 
@@ -58,7 +58,7 @@ Xg = inicio_soporte_galga + longitud_soporte_galga / 2  # [mm] Coordenada X del 
 
 a = posicion_carga - Xg  # [mm] Distancia desde la carga hasta el centro de la galga
 
-M = p * a  # [N·mm] Momento flector en la galga extensiométrica
+M = P* a  # [N·mm] Momento flector en la galga extensiométrica
 
 #Esfuerzo normal por flexión en la galga extensiométrica
 sigma = M * C / I  # [MPa] Esfuerzo normal por flexión
@@ -74,6 +74,7 @@ epsilon_f= 11.192 # [MPa]
 
 epsilon_promedio = (epsilon_i + epsilon_f) / 2  # [MPa] Promedio de la deformación sobre la rejilla sensible
 epsilon_micro = epsilon * 1e6
+
 #imprimir resultados
 print("Masa total:", masa_total, "kg")
 print("Carga aplicada:", P, "N")
@@ -84,5 +85,5 @@ print("Brazo de carga:", a, "mm")
 print("Momento flector:", M, "N·mm")
 print("Esfuerzo normal:", sigma, "MPa")
 print("Deformación:", epsilon_micro, "microstrain")
-print("Esfuerzo promedio de la rejilla:", sigma_promedio, "MPa")
+print("Esfuerzo promedio de la rejilla:", epsilon_promedio, "MPa")
 
