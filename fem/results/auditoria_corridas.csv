@@ -1,0 +1,10 @@
+﻿archivo,tamano_nominal,nodos,elementos,orden,E,gravedad_activa,total_fuerzas_Z_N,VM_max_global,VM_punto_galga_MPa,sigma_yy_galga_MPa,epsilon_yy_galga
+fem/mesh_study/10mm.html,10.00 mm,80346,40572,Parabólico,68947.20 MPa,True,-46.764,21.018 MPa,10.984,,
+fem/mesh_study/15 mm.html,15.00 mm,48735,24301,Parabólico,68947.20 MPa,True,-46.764,20.722 MPa,10.926,,
+fem/mesh_study/20 mm.html,20.00 mm,46004,22549,Parabólico,68947.20 MPa,True,-46.764,20.453 MPa,,,
+fem/mesh_study/25 mm.html,25.00 mm,28614,13899,Parabólico,68947.20 MPa,True,-46.764,17.535 MPa,,,
+fem/mesh_study/5 mm.html,5.00 mm,86283,42748,Parabólico,68947.20 MPa,True,-46.764,20.863 MPa,,,
+fem/mesh_study/historico_2026-09-25/10mm.html,10.00 mm,80346,40572,Parabólico,68947.20 MPa,True,-46.764,21.018 MPa,,,
+fem/mesh_study/historico_2026-09-25/15 mm.html,15.00 mm,80346,40572,Parabólico,68947.20 MPa,True,-46.764,21.018 MPa,,,
+fem/results/Estudios_Informe_2026-09-23.html,-,82873,41587,Parabólico,68947.20 MPa,True,-49.05,,,,
+fem/results/Estudios_Informe_2026-09-24.html,-,82873,41587,Parabólico,68947.20 MPa,True,-52.822,23.146 MPa,,,

@@ -1,0 +1,31 @@
+{
+  "origen": "Etiquetas de capturas aportadas por el usuario; tipo Von Mises confirmado por el usuario.",
+  "resultado": "Von Mises",
+  "punto_mm": [
+    17.0,
+    205.0,
+    29.997
+  ],
+  "centro_nominal_CAD_mm": [
+    16.568676923077,
+    205.5,
+    30.0
+  ],
+  "lecturas": [
+    {
+      "malla_mm": 10,
+      "valor_MPa": 10.984,
+      "imagen": "fem/mesh_study/10mm.png",
+      "informe": "fem/mesh_study/10mm.html"
+    },
+    {
+      "malla_mm": 15,
+      "valor_MPa": 10.926,
+      "imagen": "fem/mesh_study/15mm.png",
+      "informe": "fem/mesh_study/15 mm.html"
+    }
+  ],
+  "alcance": "Lectura puntual cercana al centro; no es promedio de rejilla ni esfuerzo normal YY.",
+  "variacion_absoluta_MPa": 0.058,
+  "variacion_respecto_malla_refinada_pct": 0.5280407865986875
+}

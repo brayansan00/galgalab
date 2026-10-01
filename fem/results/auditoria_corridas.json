@@ -1,0 +1,416 @@
+[
+  {
+    "archivo": "fem/mesh_study/10mm.html",
+    "sha256": "fe8de3483f2c98ccdf7e03c77ca0c51b105ac6b4caba45896b46a8a734ca7697",
+    "tamano_nominal": "10.00 mm",
+    "nodos": 80346,
+    "elementos": 40572,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "21.018 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": 10.984,
+    "lectura_captura": {
+      "tipo": "Von Mises",
+      "valor_MPa": 10.984,
+      "punto_mm": [
+        17.0,
+        205.0,
+        29.997
+      ],
+      "imagen": "fem/mesh_study/10mm.png",
+      "origen": "Etiquetas de capturas aportadas por el usuario; tipo Von Mises confirmado por el usuario.",
+      "alcance": "Lectura puntual cercana al centro; no es promedio de rejilla ni esfuerzo normal YY."
+    }
+  },
+  {
+    "archivo": "fem/mesh_study/15 mm.html",
+    "sha256": "aef5818c8576aa1120830fb608b8d12d5f81467d76a1119f08fe36533b3af242",
+    "tamano_nominal": "15.00 mm",
+    "nodos": 48735,
+    "elementos": 24301,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "20.722 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": 10.926,
+    "lectura_captura": {
+      "tipo": "Von Mises",
+      "valor_MPa": 10.926,
+      "punto_mm": [
+        17.0,
+        205.0,
+        29.997
+      ],
+      "imagen": "fem/mesh_study/15mm.png",
+      "origen": "Etiquetas de capturas aportadas por el usuario; tipo Von Mises confirmado por el usuario.",
+      "alcance": "Lectura puntual cercana al centro; no es promedio de rejilla ni esfuerzo normal YY."
+    }
+  },
+  {
+    "archivo": "fem/mesh_study/20 mm.html",
+    "sha256": "4b568c41b601386b2f45ff94389cb2e4fe153824fbd5afa994458463dddfcb37",
+    "tamano_nominal": "20.00 mm",
+    "nodos": 46004,
+    "elementos": 22549,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "20.453 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/mesh_study/25 mm.html",
+    "sha256": "6a08370f59c23187e40981e966edc8bbef0a8c9ed9954c75a28ec5eb2be0c8b4",
+    "tamano_nominal": "25.00 mm",
+    "nodos": 28614,
+    "elementos": 13899,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "17.535 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/mesh_study/5 mm.html",
+    "sha256": "51537f877320dac9859d14c6ad929ff8d11a38301a2c5c3659583772a0f4477c",
+    "tamano_nominal": "5.00 mm",
+    "nodos": 86283,
+    "elementos": 42748,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "20.863 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/mesh_study/historico_2026-09-25/10mm.html",
+    "sha256": "289ab479294c05f62934b49d9f20b428d4211cc80d657db21a672efe11a9844d",
+    "tamano_nominal": "10.00 mm",
+    "nodos": 80346,
+    "elementos": 40572,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "21.018 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/mesh_study/historico_2026-09-25/15 mm.html",
+    "sha256": "1509550cd7b5933286c08d02fb13523d4307ce20197414823abf12e58e5a8b6b",
+    "tamano_nominal": "15.00 mm",
+    "nodos": 80346,
+    "elementos": 40572,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -46.764,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "-8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "24.883 N",
+        "Valor X": "8.511 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-23.382 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "21.018 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/results/Estudios_Informe_2026-09-23.html",
+    "sha256": "bedb1635d3dec5b29727536fcca1f4fe0673d242bb8213fff134cf95063beb8d",
+    "tamano_nominal": "-",
+    "nodos": 82873,
+    "elementos": 41587,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -49.05,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza",
+        "Magnitud": "49.05 N",
+        "Valor X": "0.00 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-49.05 N"
+      }
+    ],
+    "VM_max_global": null,
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  },
+  {
+    "archivo": "fem/results/Estudios_Informe_2026-09-24.html",
+    "sha256": "689b6e27cdaa572e31b67b7db0440161f54661125d5993596161cbd41ad231d7",
+    "tamano_nominal": "-",
+    "nodos": 82873,
+    "elementos": 41587,
+    "orden": "Parabólico",
+    "E": "68947.20 MPa",
+    "gravedad_activa": true,
+    "total_fuerzas_Z_N": -52.822,
+    "cargas": [
+      {
+        "tipo": "Gravedad",
+        "Magnitud": "9.807 m / s^2",
+        "Valor X": "0.00 m / s^2",
+        "Valor Y": "0.00 m / s^2",
+        "Valor Z": "-9.807 m / s^2"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "28.106 N",
+        "Valor X": "-9.613 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-26.411 N",
+        "Posición X": "55.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      },
+      {
+        "tipo": "Fuerza remota",
+        "Magnitud": "28.106 N",
+        "Valor X": "9.613 N",
+        "Valor Y": "0.00 N",
+        "Valor Z": "-26.411 N",
+        "Posición X": "-20.00 mm",
+        "Posición Y": "707.00 mm",
+        "Posición Z": "17.00 mm"
+      }
+    ],
+    "VM_max_global": "23.146 MPa",
+    "sigma_yy_galga_MPa": null,
+    "epsilon_yy_galga": null,
+    "VM_punto_galga_MPa": null,
+    "lectura_captura": null
+  }
+]
