@@ -1,0 +1,103 @@
+{
+  "parameters": {
+    "E_MPa": 69000.0,
+    "g_m_s2": 9.81,
+    "mass_load_kg": 5.0,
+    "mass_hardware_kg": 0.073,
+    "width_mm": 70.0,
+    "height_mm": 30.0,
+    "thickness_mm": 1.0,
+    "length_mm": 746.0,
+    "clamp_y_mm": 141.83,
+    "gauge_y_mm": 205.5,
+    "grid_length_mm": 10.0,
+    "load_y_mm": 711.0,
+    "angle_deg": 20.0
+  },
+  "reference_state": "Herraje al poner a cero: desconocido (confirmado por el usuario).",
+  "assumptions": [
+    "CSV interpretado como deformación adimensional; falta configuración de adquisición.",
+    "Rejilla longitudinal centrada en la marca CAD: pendiente de comprobar.",
+    "Peso de la viga presente en ambos estados: comparación incremental sin gravedad.",
+    "Fuerzas por lado equivalentes globales; el peso del herraje no es tensión de la cuerda."
+  ],
+  "source_file": "Viga4SamuelBrayan.csv",
+  "source_sha256": "b21b2e00649a9e055c9af305b47817ff0b576ee7473788de708617aeebbffe44",
+  "experimental": {
+    "samples": 7744,
+    "duration_s": 77.43,
+    "median_sample_rate_Hz": 100.00000000000213,
+    "min_step_s": 0.009999999999990905,
+    "max_step_s": 0.010000000000005116,
+    "baseline": {
+      "start_s": 11.0,
+      "end_s": 16.5,
+      "n": 551,
+      "mean_microstrain": 3.4604213203341665,
+      "std_microstrain": 0.8085094604313279
+    },
+    "plateau": {
+      "start_s": 24.0,
+      "end_s": 53.0,
+      "n": 2901,
+      "mean_microstrain": 185.31170617359626,
+      "std_microstrain": 0.8568789426514337
+    },
+    "net_microstrain": 181.8512848532621,
+    "sigma_raw_MPa": 12.786507725978142,
+    "sigma_net_MPa": 12.547738654875085,
+    "uncertainty_note": "La desviación de muestras no es la incertidumbre total; no se asume independencia temporal."
+  },
+  "scenarios": {
+    "hardware_after_zero": {
+      "P_N": 49.766130000000004,
+      "I_mm4": 33105.333333333336,
+      "M_gauge_N_mm": 25156.778715,
+      "sigma_yy_MPa": 11.398516273057714,
+      "epsilon_yy_microstrain": 165.1958880153292,
+      "equivalent_force_per_side_N": 26.480004684073332,
+      "force_vertical_per_side_N": -24.883065000000002,
+      "force_horizontal_abs_per_side_N": 9.05669499731114,
+      "sigma_grid_start_MPa": 11.511261241139394,
+      "sigma_grid_end_MPa": 11.285771304976036,
+      "difference_net_vs_theory_percent": 10.082210300771766,
+      "difference_raw_vs_theory_percent": 12.176948470049354
+    },
+    "hardware_before_zero": {
+      "P_N": 49.050000000000004,
+      "I_mm4": 33105.333333333336,
+      "M_gauge_N_mm": 24794.775,
+      "sigma_yy_MPa": 11.234492679930725,
+      "epsilon_yy_microstrain": 162.81873449174964,
+      "equivalent_force_per_side_N": 26.098959869971747,
+      "force_vertical_per_side_N": -24.525000000000002,
+      "force_horizontal_abs_per_side_N": 8.926369995378613,
+      "sigma_grid_start_MPa": 11.34561525836723,
+      "sigma_grid_end_MPa": 11.123370101494219,
+      "difference_net_vs_theory_percent": 11.68941057116304,
+      "difference_raw_vs_theory_percent": 13.814731917712075
+    }
+  },
+  "thickness_sensitivity": [
+    {
+      "thickness_mm": 0.9,
+      "sigma_yy_MPa": 12.558762021861753,
+      "change_percent": 10.178919089201743
+    },
+    {
+      "thickness_mm": 0.95,
+      "sigma_yy_MPa": 11.94798676263002,
+      "change_percent": 4.820543976158298
+    },
+    {
+      "thickness_mm": 1.0,
+      "sigma_yy_MPa": 11.398516273057714,
+      "change_percent": 0.0
+    },
+    {
+      "thickness_mm": 1.05,
+      "sigma_yy_MPa": 10.901593676253892,
+      "change_percent": -4.359537547692771
+    }
+  ]
+}
