@@ -1,6 +1,9 @@
-# Modelo analítico preliminar
+# Modelo analítico revisado
 
-Unidades: N, mm y MPa. Hipótesis: viga en voladizo, pequeñas deformaciones, elasticidad lineal, sección tubular uniforme lejos del agujero, carga simétrica y galga longitudinal. Confirmar estas condiciones en el ensayo.
+El programa vigente es `../python/analisis_viga.py`; `../python/analytical_model.py` permite ejecutar solo el cálculo. La entrada antigua `import math.py` remite al mismo modelo para evitar resultados incompatibles.
 
-## Contenido 
- -En esta carpeta se encuentra el desarrollo del análisis preliminar, realizado paso a paso mediante ecuaciones de mecánica de materiales. Este análisis sirve como base para validar los resultados de los ensayos experimentales y del análisis por elementos finitos, así como para construir el modelo matemático en Python.
+`Analicis 1.pdf` se conserva como desarrollo preliminar histórico; no es el informe revisado.
+
+Se usa P·(yP − yg), no la tensión inclinada de una cuerda, para el momento de flexión global. Los ángulos se convierten a radianes. La coordenada longitudinal es y; la magnitud comparada es σyy bajo hipótesis uniaxial. La rejilla de 10 mm, si está centrada, tiene promedio igual al valor central porque el momento es lineal. Sus valores extremos se calculan a partir de las coordenadas y no se introducen manualmente.
+
+El estado de referencia no se recuerda, por lo que se calculan 49,05 y 49,76613 N. La posición real de la rejilla, la orientación del perfil, el espesor, la carga y la aplicabilidad de Euler–Bernoulli cerca de la mordaza siguen sujetos a comprobación.
