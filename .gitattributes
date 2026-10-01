@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.json text eol=lf
+*.step -text -diff
+*.csv -text
+*.html -text
+*.f3d -text
+*.pdf binary
+*.png binary
+*.jpeg binary
