@@ -1,0 +1,135 @@
+[
+ {
+  "size": 25.0,
+  "clamp": "jaw",
+  "nodos": 10416,
+  "elementos": 5175,
+  "fix": 196,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 10,
+  "cen": 38,
+  "t_malla": 1.0,
+  "t_ccx": 1.2,
+  "syy_centro": 11.5955,
+  "vm_centro": 11.607581982357724,
+  "syy_prom_galga": 11.58293,
+  "vm_prom_galga": 11.609304823095819
+ },
+ {
+  "size": 20.0,
+  "clamp": "jaw",
+  "nodos": 11735,
+  "elementos": 5837,
+  "fix": 256,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 10,
+  "cen": 38,
+  "t_malla": 0.9,
+  "t_ccx": 1.5,
+  "syy_centro": 11.5717,
+  "vm_centro": 11.51984167737921,
+  "syy_prom_galga": 11.501500000000002,
+  "vm_prom_galga": 11.556146786498505
+ },
+ {
+  "size": 15.0,
+  "clamp": "jaw",
+  "nodos": 16076,
+  "elementos": 7999,
+  "fix": 476,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 10,
+  "cen": 38,
+  "t_malla": 1.2,
+  "t_ccx": 2.1,
+  "syy_centro": 11.4985,
+  "vm_centro": 11.53646732379886,
+  "syy_prom_galga": 11.474250000000001,
+  "vm_prom_galga": 11.555791638548495
+ },
+ {
+  "size": 10.0,
+  "clamp": "jaw",
+  "nodos": 28263,
+  "elementos": 14086,
+  "fix": 940,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 14,
+  "cen": 38,
+  "t_malla": 1.9,
+  "t_ccx": 4.3,
+  "syy_centro": 11.4527,
+  "vm_centro": 11.472827701779483,
+  "syy_prom_galga": 11.452707142857147,
+  "vm_prom_galga": 11.47232165815998
+ },
+ {
+  "size": 7.0,
+  "clamp": "jaw",
+  "nodos": 50154,
+  "elementos": 25029,
+  "fix": 1916,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 42,
+  "cen": 38,
+  "t_malla": 2.4,
+  "t_ccx": 9.4,
+  "syy_centro": 11.4474,
+  "vm_centro": 11.467816579390245,
+  "syy_prom_galga": 11.449471428571428,
+  "vm_prom_galga": 11.468163329199447
+ },
+ {
+  "size": 5.0,
+  "clamp": "jaw",
+  "nodos": 90815,
+  "elementos": 45706,
+  "fix": 3672,
+  "gap": [
+   82,
+   81
+  ],
+  "patch": 42,
+  "cen": 38,
+  "t_malla": 3.8,
+  "t_ccx": 20.3,
+  "syy_centro": 11.4419,
+  "vm_centro": 11.464082425907327,
+  "syy_prom_galga": 11.444961904761906,
+  "vm_prom_galga": 11.463145782200272
+ },
+ {
+  "size": 4.0,
+  "clamp": "jaw",
+  "nodos": 138585,
+  "elementos": 69809,
+  "fix": 5816,
+  "gap": [
+   82,
+   82
+  ],
+  "patch": 52,
+  "cen": 38,
+  "t_malla": 5.5,
+  "t_ccx": 35.5,
+  "syy_centro": 11.4517,
+  "vm_centro": 11.466623784243158,
+  "syy_prom_galga": 11.453653846153845,
+  "vm_prom_galga": 11.465741019103989
+ }
+]

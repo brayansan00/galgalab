@@ -1,0 +1,292 @@
+{
+ "mallas": [
+  {
+   "size": 25,
+   "apoyo": "jaw",
+   "nodos": 10418,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": 0.0343971,
+    "syy": 11.5955,
+    "szz": -0.0579419,
+    "sxy": -0.0135977,
+    "syz": 0.00876775,
+    "szx": 0.00149761
+   },
+   "syy_centro": 11.5955,
+   "vm_centro": 11.607581982357724,
+   "eps_yy_centro_ue": 168.16333020289855,
+   "n_parche": 13,
+   "syy_media_nodal_parche": 11.563592307692309,
+   "vm_media_nodal_parche": 11.614408380009511,
+   "vm_max_global": 18.278028388771563,
+   "nodo_max": 381,
+   "xyz_max": [
+    -6.263872,
+    141.831516,
+    0.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.599883333333322,
+   "vm_prom_area": 11.59601187606647,
+   "eps_yy_prom_area_ue": 168.0673930455264
+  },
+  {
+   "size": 20,
+   "apoyo": "jaw",
+   "nodos": 11737,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.00484377,
+    "syy": 11.5717,
+    "szz": 0.109534,
+    "sxy": -0.00757713,
+    "syz": -0.0118697,
+    "szx": 0.0164184
+   },
+   "syy_centro": 11.5717,
+   "vm_centro": 11.51984167737921,
+   "eps_yy_centro_ue": 167.20510469710143,
+   "n_parche": 13,
+   "syy_media_nodal_parche": 11.474076923076924,
+   "vm_media_nodal_parche": 11.569509492271733,
+   "vm_max_global": 19.296151464021705,
+   "nodo_max": 389,
+   "xyz_max": [
+    -9.180735,
+    141.831516,
+    0.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.49094999999999,
+   "vm_prom_area": 11.565546802174127,
+   "eps_yy_prom_area_ue": 167.24262741032592
+  },
+  {
+   "size": 15,
+   "apoyo": "jaw",
+   "nodos": 16078,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.0726432,
+    "syy": 11.4985,
+    "szz": -0.002955,
+    "sxy": -0.000136202,
+    "syz": 0.00892484,
+    "szx": -0.000116252
+   },
+   "syy_centro": 11.4985,
+   "vm_centro": 11.53646732379886,
+   "eps_yy_centro_ue": 167.00648414492755,
+   "n_parche": 13,
+   "syy_media_nodal_parche": 11.475323076923077,
+   "vm_media_nodal_parche": 11.554994777299852,
+   "vm_max_global": 20.280930424162005,
+   "nodo_max": 448,
+   "xyz_max": [
+    45.072911,
+    141.831516,
+    30.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.466466666666657,
+   "vm_prom_area": 11.556601984301603,
+   "eps_yy_prom_area_ue": 167.0403963857486
+  },
+  {
+   "size": 10,
+   "apoyo": "jaw",
+   "nodos": 28265,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.0370119,
+    "syy": 11.4527,
+    "szz": -0.0031379,
+    "sxy": -0.0079259,
+    "syz": -0.00734792,
+    "szx": -0.000427116
+   },
+   "syy_centro": 11.4527,
+   "vm_centro": 11.472827701779483,
+   "eps_yy_centro_ue": 166.17318020289858,
+   "n_parche": 19,
+   "syy_media_nodal_parche": 11.454915789473686,
+   "vm_media_nodal_parche": 11.470752585505291,
+   "vm_max_global": 25.669106433652555,
+   "nodo_max": 2993,
+   "xyz_max": [
+    -12.930987,
+    140.915758,
+    30.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.452329166666654,
+   "vm_prom_area": 11.472275368976604,
+   "eps_yy_prom_area_ue": 166.16457193828487
+  },
+  {
+   "size": 7,
+   "apoyo": "jaw",
+   "nodos": 50156,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.0444321,
+    "syy": 11.4474,
+    "szz": 0.00376237,
+    "sxy": -0.00564519,
+    "syz": -0.000590541,
+    "szx": -0.00343917
+   },
+   "syy_centro": 11.4474,
+   "vm_centro": 11.467816579390245,
+   "eps_yy_centro_ue": 166.09885523043476,
+   "n_parche": 49,
+   "syy_media_nodal_parche": 11.449202040816326,
+   "vm_media_nodal_parche": 11.468049653466801,
+   "vm_max_global": 23.902859322200243,
+   "nodo_max": 556,
+   "xyz_max": [
+    48.573146,
+    141.831516,
+    30.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.449565106076378,
+   "vm_prom_area": 11.468044786056545,
+   "eps_yy_prom_area_ue": 166.11005812372926
+  },
+  {
+   "size": 5,
+   "apoyo": "jaw",
+   "nodos": 90817,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.0400178,
+    "syy": 11.4419,
+    "szz": -0.0042227,
+    "sxy": -0.0124038,
+    "syz": -0.0010062,
+    "szx": 5.36051e-05
+   },
+   "syy_centro": 11.4419,
+   "vm_centro": 11.464082425907327,
+   "eps_yy_centro_ue": 166.03622268115942,
+   "n_parche": 49,
+   "syy_media_nodal_parche": 11.444667346938774,
+   "vm_media_nodal_parche": 11.463053572441597,
+   "vm_max_global": 26.86982943356232,
+   "nodo_max": 4569,
+   "xyz_max": [
+    -15.431155,
+    140.915758,
+    30.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.444582212638876,
+   "vm_prom_area": 11.462945142981821,
+   "eps_yy_prom_area_ue": 166.0369685371306
+  },
+  {
+   "size": 4,
+   "apoyo": "jaw",
+   "nodos": 138587,
+   "nodo_centro": 38,
+   "xyz_centro": [
+    16.568677,
+    205.5,
+    30.0
+   ],
+   "tensor_centro_MPa": {
+    "sxx": -0.0303582,
+    "syy": 11.4517,
+    "szz": 0.000619395,
+    "sxy": -0.0132429,
+    "syz": 0.000563308,
+    "szx": -0.000348008
+   },
+   "syy_centro": 11.4517,
+   "vm_centro": 11.466623784243158,
+   "eps_yy_centro_ue": 166.10889573405797,
+   "n_parche": 61,
+   "syy_media_nodal_parche": 11.453360655737704,
+   "vm_media_nodal_parche": 11.465650730060256,
+   "vm_max_global": 36.75596564789041,
+   "nodo_max": 508,
+   "xyz_max": [
+    50.128806,
+    141.831516,
+    0.0
+   ],
+   "area_galga_mm2": 75.00000000000003,
+   "syy_prom_area": 11.45306165670332,
+   "vm_prom_area": 11.465864568585495,
+   "eps_yy_prom_area_ue": 166.1068281174946
+  }
+ ],
+ "apoyo_solo_extremo_5mm": {
+  "size": 5,
+  "apoyo": "end",
+  "nodos": 90817,
+  "nodo_centro": 38,
+  "xyz_centro": [
+   16.568677,
+   205.5,
+   30.0
+  ],
+  "tensor_centro_MPa": {
+   "sxx": 0.000123923,
+   "syy": 11.3948,
+   "szz": -9.21555e-05,
+   "sxy": -0.0108192,
+   "syz": 0.000181652,
+   "szx": -3.30468e-06
+  },
+  "syy_centro": 11.3948,
+  "vm_centro": 11.394799531156824,
+  "eps_yy_centro_ue": 165.1418770539855,
+  "n_parche": 49,
+  "syy_media_nodal_parche": 11.394626530612241,
+  "vm_media_nodal_parche": 11.394698151782311,
+  "vm_max_global": 21.997842816260142,
+  "nodo_max": 30,
+  "xyz_max": [
+   -17.931323,
+   0.0,
+   0.0
+  ],
+  "area_galga_mm2": 75.00000000000003,
+  "syy_prom_area": 11.394578168229145,
+  "vm_prom_area": 11.394632940111013,
+  "eps_yy_prom_area_ue": 165.1379228245929
+ }
+}

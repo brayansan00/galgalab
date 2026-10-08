@@ -9,3 +9,11 @@
 *.pdf binary
 *.png binary
 *.jpeg binary
+*.xlsx binary
+*.inp -text -diff
+*.frd -text -diff
+
+# Preservar byte por byte los originales y los documentos archivados.
+archivo/** -text
+datos/*.json -text
+informe/*.tex -text

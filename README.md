@@ -1,49 +1,66 @@
 # GalgaLab
 
-Comparación de teoría de vigas, ensayo con galga extensiométrica y FEM de una viga tubular de aluminio 1100. Revisión del ZIP frente a `main` en el commit `dfa231fbb436338dee7460102a4b27766cca2854` (30 de septiembre de 2026).
+Entrega final del análisis de una viga tubular de aluminio 1100 instrumentada con una galga extensiométrica. Compara la teoría de Euler–Bernoulli, el ensayo de laboratorio y un modelo de elementos finitos con CalculiX.
 
-## Estado y resultados
+**[Leer el informe final](informe/informe_completo.pdf)** · [Fuente LaTeX](informe/informe_completo.tex) · [Resultados de la comparación](datos/resultados_comparacion.json)
 
-El cálculo y el tratamiento del CSV son reproducibles. La validación física sigue pendiente: no se recuerda si el herraje de 73 g estaba instalado al poner la galga en cero. Se conservan ambos casos, sin escoger uno como confirmado.
+Trabajo de **Brayan Smith Espinosa Villegas y Samuel Vanegas Correa**, Universidad Pontificia Bolivariana, Medellín. Elementos Finitos — profesor Elkin Alonso Taborda Espinosa. Informe del **5 de octubre de 2026**.
 
-| Referencia experimental | Carga incremental | Teoría en la galga | Diferencia del ensayo respecto a teoría |
+## Resultados principales
+
+Carga: **49,76613 N** (pesa de 5 kg más herraje de 73 g). Según el informe final, el cero se tomó con la viga montada y antes de colgar el herraje; el peso propio se excluye de la comparación incremental. Sección nominal de 70 × 30 × 1 mm, longitud de 746 mm, carga en y = 711 mm, centro de la galga en y = 205,5 mm y E = 69 GPa.
+
+| Método | Esfuerzo longitudinal σyy | Deformación longitudinal | Diferencia respecto a teoría |
 |---|---:|---:|---:|
-| Herraje añadido después del cero | 49,76613 N | 11,39852 MPa; 165,1959 µε | +10,08 % |
-| Herraje presente al poner en cero | 49,05000 N | 11,23449 MPa; 162,8187 µε | +11,69 % |
+| Analítico | 11,39852 MPa | 165,19589 µε | Referencia |
+| FEM, nodo central, malla de 5 mm | 11,44190 MPa | 166,03622 µε | +0,38061 % en σyy |
+| FEM, promedio sobre el área de la galga | 11,44458 MPa | 166,03697 µε | +0,40414 % en σyy |
+| Ensayo, descontando la base | 12,54774 MPa (E·ε) | 181,85128 µε | +10,08221 % en E·ε |
 
-El ensayo da 185,31171 µε en la meseta; la base previa es 3,46042 µε. El incremento es 181,85128 µε y su esfuerzo equivalente uniaxial es 12,54774 MPa con E = 69 GPa. La desviación de la meseta (0,86 µε) es dispersión de muestras, no incertidumbre total.
+El promedio FEM integra la marca CAD de **75 mm²**. El Von Mises central es **11,46408 MPa** y se reporta por separado: la comparación con la galga usa la componente longitudinal. El estudio incluye mallas de 25, 20, 15, 10 y 5 mm, controles de 7 y 4 mm y una variante de apoyo. El máximo global junto a la mordaza depende del refinamiento y de la idealización del apoyo.
 
-Las cifras suponen que el canal exportado ya contiene deformación adimensional y que la rejilla está centrada en la marca CAD y alineada con el eje longitudinal **y**. Falta comprobarlo con el montaje y la configuración de adquisición.
+El ensayo contiene **7 744 muestras**, a 100 Hz durante 77,43 s. La base de 11–16,5 s es 3,46042 µε; la meseta de 24–53 s es 185,31171 µε. La desviación de 0,85688 µε en la meseta describe dispersión, no la incertidumbre total. La diferencia experimental no permite atribuir una causa única; el informe analiza geometría, instrumentación y montaje.
 
-**FEM en revisión.** Las mallas usaron dos fuerzas de 24,883 N en y = 707 mm, con componente vertical conjunta de 46,764 N y gravedad activa. El informe histórico del 24 de septiembre contiene otra configuración: dos fuerzas de 28,106 N y total vertical 52,822 N más gravedad. Las exportaciones anteriores de 10 y 15 mm repetían recuentos y resúmenes; la nueva exportación de 15 mm corrige esa repetición.
+## Organización
 
-**Actualización del 30 de septiembre:** los nuevos informes tienen 80 346 nodos / 40 572 elementos para 10 mm y 48 735 / 24 301 para 15 mm. Las capturas, identificadas como Von Mises por el usuario, dan 10,984 y 10,926 MPa en el mismo punto (17; 205; 29,997) mm: variación de 0,528 % respecto a la malla refinada. Es evidencia de estabilidad puntual entre dos mallas; falta confirmar convergencia con otro refinamiento y comparar la magnitud longitudinal en la rejilla. Véase `fem/mesh_study/actualizacion_2026-09-30/README.md`.
+| Carpeta | Contenido |
+|---|---|
+| [informe/](informe/) | PDF final, fuente LaTeX y figuras utilizadas |
+| [codigo/](codigo/) | Análisis de la viga, tratamiento experimental, comparación y figuras |
+| [datos/](datos/) | CSV original, hoja de convergencia y resultados JSON |
+| [cad/](cad/) | Geometría STEP y modelo nativo Fusion 360 |
+| [fem/](fem/) | Generación y extracción FEM; entradas `.inp` y resultados `.frd` |
+| [docs/](docs/) | Registro de organización y trazabilidad |
+| [archivo/2026-09-30/](archivo/2026-09-30/) | Evidencias y borradores anteriores distintos de la entrega final |
 
-## Reproducir
+## Reproducir los análisis
 
-Desde la raíz del repositorio:
+Requiere Python 3.10 o posterior. Desde la raíz:
 
-```text
+```sh
 python -m pip install -r requirements.txt
-python python/analisis_viga.py
-python python/auditar_fem.py
-python -m unittest discover -s tests -v
+python codigo/analisis_viga.py
+python codigo/analisis_experimental.py
+python fem/extraer_galga.py
+python codigo/analisis_errores.py
+python codigo/figuras.py
+python fem/grafica_convergencia.py
+python fem/nodos_galga.py
 ```
 
-El análisis acepta `--csv RUTA`, `--baseline INICIO FIN`, `--plateau INICIO FIN` y `--output-dir CARPETA`. Las ventanas por defecto son inclusivas: base 11–16,5 s (551 muestras), meseta 24–53 s (2 901 muestras). El CSV original conserva 7 744 muestras y 77,43 s a 100 Hz. Se rechazan archivos o ventanas inválidos.
+Los JSON experimentales, FEM y de comparación se guardan en `datos/`. Los gráficos regenerados se guardan en `codigo/figures/`, `fem/capturas/` o en las rutas indicadas por cada script. El informe conserva sus figuras entregadas. La extracción FEM usa los `.inp` y `.frd` incluidos y no necesita resolver nuevamente el modelo.
 
-## Archivos
+Para crear nuevas mallas y resolverlas se necesitan **Gmsh** y **CalculiX**, con `ccx` disponible en el sistema. Para las capturas CAD/FEM se requieren Gmsh, VTK y Pillow. Las dependencias Python opcionales están en [requirements-fem.txt](requirements-fem.txt):
 
-- `python/analisis_viga.py`: modelo, ensayo, sensibilidad de espesor y figuras; `analytical_model.py` conserva la entrada anterior.
-- `experimental/raw_data/`: originales; se conservan tanto el archivo previo del grupo 1 como el ensayo Samuel–Brayan. Solo este último alimenta el análisis por defecto.
-- `experimental/processed_data/`: señal procesada y resultados JSON, con huella SHA-256 del original.
-- `cad/`: STEP actualizado, archivo nativo recibido y verificación geométrica. El archivo Fusion no se ha resuelto ni editado.
-- `fem/`: informes vigentes de 10 y 15 mm, exportaciones anteriores conservadas en `mesh_study/historico_2026-09-25/`, auditoría y procedimiento para nuevas corridas.
-- `figures/`: gráficas calculadas; `report/informe_viga.tex`: borrador revisado, autónomo con figuras vectoriales incorporadas.
-- `report/informe_viga_revisado.pdf`: versión de lectura generada desde los resultados; la compilación LaTeX del editor integrado falló por un problema de entorno y no está verificada.
-- `report/original/`: PDF y fuente recibidos, archivados como borrador anterior; no representan la revisión actual.
-- `REVISION_CAMBIOS.md`: comparación, opinión y pendientes.
+```sh
+python -m pip install -r requirements-fem.txt
+python fem/fem_calculix.py 25 20 15 10 7 5 4
+```
 
-## Para cerrar la validación
+Las nuevas corridas se escriben en `fem/corridas/`. Para compilar el informe en un entorno LaTeX completo, trabajar desde `informe/` y usar `pdflatex informe_completo.tex` dos veces. El PDF entregado se conserva sin modificaciones.
 
-Confirmar orientación y centro real de la rejilla, espesor medido, posición de carga y estado de referencia; configurar apoyo y contactos; repetir mallas con la misma carga incremental; comparar **εyy promediada sobre la rejilla** y σyy local, y verificar equilibrio sumando reacciones. Von Mises máximo global no sustituye la lectura de la galga.
+## Trazabilidad
+
+La fuente es **Entrega Viga Galga.zip**. Se conservan el repositorio y todos sus commits anteriores. Se retiraron cinco copias idénticas de la entrega, siete copias anteriores idénticas y ocho marcadores vacíos `.gitkeep`; se ordenaron los resultados FEM de control y se adaptaron las rutas del código. Los archivos anteriores distintos permanecen archivados y no representan la entrega vigente.
+
+La correspondencia y las huellas SHA-256 están en [docs/inventario_entrega.json](docs/inventario_entrega.json). El alcance de las comprobaciones figura en [docs/organizacion_final.md](docs/organizacion_final.md).

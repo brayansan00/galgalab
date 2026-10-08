@@ -1,0 +1,711 @@
+{
+  "fuente": "Entrega Viga Galga.zip",
+  "sha256_zip": "26e4b483b02305b0036ba4c042124a13e284c4233fbbc16d815ea3de396d8be2",
+  "base_commit": "fb3930d8cfcff6dbdb5f236caaa3fb38cfc9489f",
+  "entrega": [
+    {
+      "origen": "cad/VIGA_FEM.step",
+      "destino": "cad/VIGA_FEM.step",
+      "sha256": "aa40f5cca3916250e36ebeef48578add8a6b98987bb8a4620062860f7e8d5d0e",
+      "accion": "conservado"
+    },
+    {
+      "origen": "cad/VIGA_FEMa.f3d",
+      "destino": "cad/VIGA_FEMa.f3d",
+      "sha256": "d4e7727087f1485257b014633bbf5ea73f620979f9f51c8848816c7ab874ee52",
+      "accion": "conservado"
+    },
+    {
+      "origen": "codigo/analisis_errores.py",
+      "destino": "codigo/analisis_errores.py",
+      "sha256": "8b4d87769879f7da387e1448e6933df3fc247ad7975a9192af10b02beb6e74e0",
+      "accion": "conservado"
+    },
+    {
+      "origen": "codigo/analisis_experimental.py",
+      "destino": "codigo/analisis_experimental.py",
+      "sha256": "099622418907f7adf247fff15badc3cc3a60e18b5a06048657fe9c03104f76b0",
+      "accion": "conservado"
+    },
+    {
+      "origen": "codigo/analisis_viga.py",
+      "destino": "codigo/analisis_viga.py",
+      "sha256": "aae5360d5d062c1dfc97d66f884d8dbb6423b185cb1a321e876c47260a0aacac",
+      "accion": "conservado"
+    },
+    {
+      "origen": "codigo/figuras.py",
+      "destino": "codigo/figuras.py",
+      "sha256": "bcb28fe8158687a9274db3506a03afdac55eb0e01db7fb8e0b8848fd490e8ad7",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/convergencia.json",
+      "destino": "datos/convergencia.json",
+      "sha256": "97f559737ecd23bba9b8a8bb3aca17d911d577d5bad34973f7b044138c68667c",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/Convergencia_galga_FEM.xlsx",
+      "destino": "datos/Convergencia_galga_FEM.xlsx",
+      "sha256": "575eebbc05ac7a609ddc01d74f59aacd21ec3eaad9e671a0c395e69e0e35e77a",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/galga_fem.json",
+      "destino": "datos/galga_fem.json",
+      "sha256": "1ee7d8e18a5efcc2ab4453ccda6033a6e384526979c03244b1e05a215951c08d",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/resultados_comparacion.json",
+      "destino": "datos/resultados_comparacion.json",
+      "sha256": "19648b2456d4b5b4ae12739f6e00cd2cf6423c62e29fadc7ab193c25b84788c8",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/resultados_exp.json",
+      "destino": "datos/resultados_exp.json",
+      "sha256": "14c46cedb7784acbacb7cb7d62c8be6487bc64344f89e61156ff69f26302f37d",
+      "accion": "conservado"
+    },
+    {
+      "origen": "datos/Viga4SamuelBrayan.csv",
+      "destino": "datos/Viga4SamuelBrayan.csv",
+      "sha256": "b21b2e00649a9e055c9af305b47817ff0b576ee7473788de708617aeebbffe44",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/convergencia.json",
+      "destino": "datos/convergencia.json",
+      "sha256": "97f559737ecd23bba9b8a8bb3aca17d911d577d5bad34973f7b044138c68667c",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "fem/extraer_galga.py",
+      "destino": "fem/extraer_galga.py",
+      "sha256": "fed477faa64f19a6b4307a3d35e4daf834fd5ef04c3de41b782c2de6f466a851",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/fem_calculix.py",
+      "destino": "fem/fem_calculix.py",
+      "sha256": "211f1ba45089e32c8bc8beca3ba85d5965acc96f60afe8015784a0b805ac3951",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/fig_nodos_galga_5mm.png",
+      "destino": "informe/figures/fig_nodos_galga_5mm.png",
+      "sha256": "e00e24d7e0a5b2fafc33149689ac481b57b0437ac9a40a78a40f4f0d3307c5ec",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "fem/frd/viga_10mm.frd",
+      "destino": "fem/frd/viga_10mm.frd",
+      "sha256": "d5896fe1c06a24bbc3fe4afefddbe1069f0de329c8d9fcfb256e3f82c34b4fe7",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/frd/viga_15mm.frd",
+      "destino": "fem/frd/viga_15mm.frd",
+      "sha256": "593cb84f10d1122cba37401f78d97dc6a686a9b4d29620df778996c380e28df0",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/frd/viga_20mm.frd",
+      "destino": "fem/frd/viga_20mm.frd",
+      "sha256": "b80d15b699ffb3aa433a114623d498a68cc9619c05ed88d7e278314a65fb085d",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/frd/viga_25mm.frd",
+      "destino": "fem/frd/viga_25mm.frd",
+      "sha256": "3626a956c2bc15272f252a131274a07e084342dd47a6f1ff6e3afbec8f07f9f4",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/frd/viga_5mm.frd",
+      "destino": "fem/frd/viga_5mm.frd",
+      "sha256": "4c23d4effe1a3f223b083c1f847cf16bfe4929df585b1ab2a2ff676822c54d61",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/frd/viga_7mm.frd",
+      "destino": "fem/frd/viga_7mm.frd",
+      "sha256": "05285e1f91ea9529db0fa1df265c3486ea1a4d05270a1d6c5dfd592eb0b7bec5",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/galga_fem.json",
+      "destino": "datos/galga_fem.json",
+      "sha256": "1ee7d8e18a5efcc2ab4453ccda6033a6e384526979c03244b1e05a215951c08d",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "fem/grafica_convergencia.py",
+      "destino": "fem/grafica_convergencia.py",
+      "sha256": "1d70c716bd8c7bed3c72fa89e9f4d7302eadd5fa4cc0be759b197659e333ec08",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_10mm.inp",
+      "destino": "fem/inp/viga_10mm.inp",
+      "sha256": "922cec77538603400b5f655031e28454d607909f66b3d06957adb32e82493b95",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_15mm.inp",
+      "destino": "fem/inp/viga_15mm.inp",
+      "sha256": "d6bda1bf303517085a7d5af9b572f83f89c90f7b477397d35f241e2c0ba4ad97",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_20mm.inp",
+      "destino": "fem/inp/viga_20mm.inp",
+      "sha256": "bf0e43257fa9cde473a660a45246cb236b19c81ca7921ec27ab2c9be5065c53f",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_25mm.inp",
+      "destino": "fem/inp/viga_25mm.inp",
+      "sha256": "94ef0589421750013f42bf1f60e3f2547a29c4df0231b2e8d2f25409548edcf0",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_4mm.inp",
+      "destino": "fem/inp/viga_4mm.inp",
+      "sha256": "03528e3a15fb04dbad13a823c51f3c032c83f041047dd4071a8b1f3cf7884b35",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_5mm.inp",
+      "destino": "fem/inp/viga_5mm.inp",
+      "sha256": "4efcef934443492548855860a830219f811ab007ac3d7ad6540d89a6aadcc5f6",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_5mm_end.inp",
+      "destino": "fem/inp/viga_5mm_end.inp",
+      "sha256": "a4e2b230bc2c74013482397b269c635d0f334dff868e51432d9f56cd490ec84b",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/inp/viga_7mm.inp",
+      "destino": "fem/inp/viga_7mm.inp",
+      "sha256": "c7a277d519e5418dae3abdc1d8391bf85744bc2bbff7b7388453feda0bd57a9b",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/nodos_galga.py",
+      "destino": "fem/nodos_galga.py",
+      "sha256": "24ccfbe5f16bbf03bd0ccd4f9ba2d6a3bc913691171f584c36221b653249e8b6",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/nodos_galga_5mm.csv",
+      "destino": "fem/nodos_galga_5mm.csv",
+      "sha256": "e185ba8a8141b25a3534f968aa647008a5f2a98956168b1cb92ed5bc7bcc5c9e",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/nodos_galga_5mm.json",
+      "destino": "fem/nodos_galga_5mm.json",
+      "sha256": "b05468af02f53a7e2f4705a96268d3521bb798b29ca65392aa6ea4cd4965eb77",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/render_cad.py",
+      "destino": "fem/render_cad.py",
+      "sha256": "9608084e8b60abc797e607f415dad534f8fe69b462375f5379a100e5e3bdaa3c",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/render_vm.py",
+      "destino": "fem/render_vm.py",
+      "sha256": "393a4c38e7852af798af1ba4ca81127045186d84b9333fb4ce797b4de58527d7",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/viga_4mm.frd",
+      "destino": "fem/frd/viga_4mm.frd",
+      "sha256": "f52ae97ac11a23cf2943c9efbdb427eeedbfab57e187d4cfaa2490b37cb3da49",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/viga_5mm_end.frd",
+      "destino": "fem/frd/viga_5mm_end.frd",
+      "sha256": "cbfcaf4c93625e9518f7661dca7d95815fbe96b4b2247cc30aa1697b6e761915",
+      "accion": "conservado"
+    },
+    {
+      "origen": "fem/viga_7mm.frd",
+      "destino": "fem/frd/viga_7mm.frd",
+      "sha256": "05285e1f91ea9529db0fa1df265c3486ea1a4d05270a1d6c5dfd592eb0b7bec5",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "fem/VIGA_FEM.step",
+      "destino": "cad/VIGA_FEM.step",
+      "sha256": "aa40f5cca3916250e36ebeef48578add8a6b98987bb8a4620062860f7e8d5d0e",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "informe/figures/cad_carga.png",
+      "destino": "informe/figures/cad_carga.png",
+      "sha256": "02c729ea54cbcebef4cb82bc7efa8a829fb6a684838ffbf3ec36ac7d30933932",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/cad_galga.png",
+      "destino": "informe/figures/cad_galga.png",
+      "sha256": "31f71fe8b28724ec3dd591eb6148a098666c366652bce990576e86fecfc9bb52",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/cad_general.png",
+      "destino": "informe/figures/cad_general.png",
+      "sha256": "12475ed1e8364dd606a4ae2e585b2d44d1f6c8e3a34c17aa965ad536b70328b7",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_comparacion.png",
+      "destino": "informe/figures/fig_comparacion.png",
+      "sha256": "57290a5d2bd3a68ef5ecd2562b24b1cd31ace7c63fff885b2734d0b1afef7a0f",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_convergencia_vm.png",
+      "destino": "informe/figures/fig_convergencia_vm.png",
+      "sha256": "c9bcc0ac53c9884931b77fde9fdb8ed1989328aec4def1b469d6c315dcf0f0c1",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_dcl_cuerdas.png",
+      "destino": "informe/figures/fig_dcl_cuerdas.png",
+      "sha256": "faa98b268ba0cf4eddfbe9bfb8ad8ceb752098d8d1c9569905918467d49ab040",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_dcl_viga.png",
+      "destino": "informe/figures/fig_dcl_viga.png",
+      "sha256": "1f4ac97c3a2ab6a78890e8dc67e3a30ebd789e15fa06656076f343205deb02f2",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_diagramas_V_M.png",
+      "destino": "informe/figures/fig_diagramas_V_M.png",
+      "sha256": "a6ea4f3349bea2f976602a71508b76248b68c14dac4076c5fc5c23dbd851e94d",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_exp_meseta.png",
+      "destino": "informe/figures/fig_exp_meseta.png",
+      "sha256": "05a316f6d871fdf91e8afd0e3b81bc69a86662b9531f781e9b3662e1bfe80a84",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_exp_senal.png",
+      "destino": "informe/figures/fig_exp_senal.png",
+      "sha256": "054155b992e7eae90979a4a25c98b36ca1803dd5f813cef7437f50166808dab4",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_nodos_galga_5mm.png",
+      "destino": "informe/figures/fig_nodos_galga_5mm.png",
+      "sha256": "e00e24d7e0a5b2fafc33149689ac481b57b0437ac9a40a78a40f4f0d3307c5ec",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/fig_sensibilidad.png",
+      "destino": "informe/figures/fig_sensibilidad.png",
+      "sha256": "a61525a28f8cc2880aa62b81e5087c5d53fa52f1908c8b9b6195ba745c97af5a",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/vm_10mm.png",
+      "destino": "informe/figures/vm_10mm.png",
+      "sha256": "e15a29ece8d091fd34751d141d634ba746b6d7435441d707ef7ad625efe3bec1",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/vm_15mm.png",
+      "destino": "informe/figures/vm_15mm.png",
+      "sha256": "96a0220e3673df548413e9714dbbf8bbb6702c86d27beba8f43813acd8e8b06f",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/vm_20mm.png",
+      "destino": "informe/figures/vm_20mm.png",
+      "sha256": "3d82b2267776cb74cb65f1c09f9cbdea069af98b8fb272817a3ab236a2ef9ecc",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/vm_25mm.png",
+      "destino": "informe/figures/vm_25mm.png",
+      "sha256": "07856cc7fcc66a80b99c8b0eca1778f06e46987d7382e865048e08c6e9fed37a",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/figures/vm_5mm.png",
+      "destino": "informe/figures/vm_5mm.png",
+      "sha256": "ee1afa61a0a0e0624827941946bcff59274332c0c4200695ba263814fe932764",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/informe_completo.pdf",
+      "destino": "informe/informe_completo.pdf",
+      "sha256": "24db09ecd757fb2fb6baccb8882d93b5cd48fb95978b40cd1202a9a753d6babd",
+      "accion": "conservado"
+    },
+    {
+      "origen": "informe/informe_completo.tex",
+      "destino": "informe/informe_completo.tex",
+      "sha256": "c46a244a0e4530ac868268611e4bd278b3be2d70a035060e5e7633bb189bd6a9",
+      "accion": "conservado"
+    }
+  ],
+  "anterior": [
+    {
+      "origen": "REVISION_CAMBIOS.md",
+      "destino": "archivo/2026-09-30/REVISION_CAMBIOS.md",
+      "sha256": "b95ecfa5a50d192d0d1e524edf9465d22c27d0d17e49f642afce7941d41952b0",
+      "accion": "archivado"
+    },
+    {
+      "origen": "analytical/Analicis 1.pdf",
+      "destino": "archivo/2026-09-30/analytical/Analicis 1.pdf",
+      "sha256": "5840cc8583da3965591aabac83c1c713b05398908a28c255055b9accb661be59",
+      "accion": "archivado"
+    },
+    {
+      "origen": "analytical/README.md",
+      "destino": "archivo/2026-09-30/analytical/README.md",
+      "sha256": "15ed9af83cf1c75c12e3cdeb471af0957f683bba934b49c3a12aafbff4ee1d4d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "analytical/import math.py",
+      "destino": "archivo/2026-09-30/analytical/import math.py",
+      "sha256": "4871bfe28707be7e9afc746cafd8d17a02463a7a7bfd2bb135b368bf3ba89353",
+      "accion": "archivado"
+    },
+    {
+      "origen": "cad/LEEME_FEM.md",
+      "destino": "archivo/2026-09-30/cad/LEEME_FEM.md",
+      "sha256": "207c2f9f651e027e480c11bb23f0c2aa5844e0381acef86145a23da3e4e0a315",
+      "accion": "archivado"
+    },
+    {
+      "origen": "cad/Verificacion_geometria.json",
+      "destino": "archivo/2026-09-30/cad/Verificacion_geometria.json",
+      "sha256": "077d5ffe9d4e5dbbd17afd37f3bb2f10f04148b5e490270bec3f09701b02791d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "cad/native/VIGA_FEMa.f3d",
+      "destino": "cad/VIGA_FEMa.f3d",
+      "sha256": "d4e7727087f1485257b014633bbf5ea73f620979f9f51c8848816c7ab874ee52",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "cad/step/VIGA_FEM.step",
+      "destino": "cad/VIGA_FEM.step",
+      "sha256": "aa40f5cca3916250e36ebeef48578add8a6b98987bb8a4620062860f7e8d5d0e",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "experimental/processed_data/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "experimental/processed_data/resultados_analisis.json",
+      "destino": "archivo/2026-09-30/experimental/processed_data/resultados_analisis.json",
+      "sha256": "687299e43a16c0b7957a65e40797ef14f4a3ac226d8aa564898bc557478fac6b",
+      "accion": "archivado"
+    },
+    {
+      "origen": "experimental/processed_data/senal_procesada.csv",
+      "destino": "archivo/2026-09-30/experimental/processed_data/senal_procesada.csv",
+      "sha256": "21d726b3c746905294b45f3536965b9ba4abf3cee66bd15ad7879b8dcdbff835",
+      "accion": "archivado"
+    },
+    {
+      "origen": "experimental/raw_data/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "experimental/raw_data/Viga4Grupo1 (1).csv",
+      "destino": "archivo/2026-09-30/experimental/raw_data/Viga4Grupo1 (1).csv",
+      "sha256": "ac56c5bc10b890b69c8fe76d905491643ea1bedb4983e8ad4a92ccac09bc9270",
+      "accion": "archivado"
+    },
+    {
+      "origen": "experimental/raw_data/Viga4SamuelBrayan.csv",
+      "destino": "datos/Viga4SamuelBrayan.csv",
+      "sha256": "b21b2e00649a9e055c9af305b47817ff0b576ee7473788de708617aeebbffe44",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "fem/mesh_study/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "fem/mesh_study/10mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/10mm.html",
+      "sha256": "fe8de3483f2c98ccdf7e03c77ca0c51b105ac6b4caba45896b46a8a734ca7697",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/10mm.png",
+      "destino": "archivo/2026-09-30/fem/mesh_study/10mm.png",
+      "sha256": "60dea76e122d856ed07071e3acc0c4c43538fa499f27bd7a81ede70596c60f8a",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/15 mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/15 mm.html",
+      "sha256": "aef5818c8576aa1120830fb608b8d12d5f81467d76a1119f08fe36533b3af242",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/15mm.png",
+      "destino": "archivo/2026-09-30/fem/mesh_study/15mm.png",
+      "sha256": "61bbabbb068f5d43bbca5b929a331eb22508638f8b5f0e368071f43b4033e9a3",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/20 mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/20 mm.html",
+      "sha256": "4b568c41b601386b2f45ff94389cb2e4fe153824fbd5afa994458463dddfcb37",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/20mm.jpeg",
+      "destino": "archivo/2026-09-30/fem/mesh_study/20mm.jpeg",
+      "sha256": "3cbe63f19964d342e66028f33f6d7857dc6fd1729da2c96ed7652bf0a7e1281a",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/25 mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/25 mm.html",
+      "sha256": "6a08370f59c23187e40981e966edc8bbef0a8c9ed9954c75a28ec5eb2be0c8b4",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/25mm.jpeg",
+      "destino": "archivo/2026-09-30/fem/mesh_study/25mm.jpeg",
+      "sha256": "1cd17f72d71dcad58f4b1963d172999949b1d0b734078b96348143253c05a5be",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/5 mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/5 mm.html",
+      "sha256": "51537f877320dac9859d14c6ad929ff8d11a38301a2c5c3659583772a0f4477c",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/5mm.jpeg",
+      "destino": "archivo/2026-09-30/fem/mesh_study/5mm.jpeg",
+      "sha256": "c4efd5643a681df5df7abc37024c574f717ad2cba604a60ad6bc471a4ab768af",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/README.md",
+      "destino": "archivo/2026-09-30/fem/mesh_study/README.md",
+      "sha256": "005acba3bfbe8c3ed393e80e4b460787f9c15807e818b8c2baf0d506507b4ec1",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/actualizacion_2026-09-30/README.md",
+      "destino": "archivo/2026-09-30/fem/mesh_study/actualizacion_2026-09-30/README.md",
+      "sha256": "ae676ca181b8e2afd934505e3398211a455ae36d523656f4e85f6851e29faadc",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/historico_2026-09-25/10mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/historico_2026-09-25/10mm.html",
+      "sha256": "289ab479294c05f62934b49d9f20b428d4211cc80d657db21a672efe11a9844d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/historico_2026-09-25/15 mm.html",
+      "destino": "archivo/2026-09-30/fem/mesh_study/historico_2026-09-25/15 mm.html",
+      "sha256": "1509550cd7b5933286c08d02fb13523d4307ce20197414823abf12e58e5a8b6b",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/historico_2026-09-25/README.md",
+      "destino": "archivo/2026-09-30/fem/mesh_study/historico_2026-09-25/README.md",
+      "sha256": "de83d61355eaadc46695b106271b2f4107b1b29e51cd932a6757cd209f96ae3c",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/mesh_study/lecturas_galga.json",
+      "destino": "archivo/2026-09-30/fem/mesh_study/lecturas_galga.json",
+      "sha256": "03ce9e2975f6a35ebd385ae038a9be5e59feee0553e1a3462c0ce9aa44fadef1",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/models/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "fem/results/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "fem/results/Estudios_Informe_2026-09-23.html",
+      "destino": "archivo/2026-09-30/fem/results/Estudios_Informe_2026-09-23.html",
+      "sha256": "bedb1635d3dec5b29727536fcca1f4fe0673d242bb8213fff134cf95063beb8d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/results/Estudios_Informe_2026-09-24.html",
+      "destino": "archivo/2026-09-30/fem/results/Estudios_Informe_2026-09-24.html",
+      "sha256": "689b6e27cdaa572e31b67b7db0440161f54661125d5993596161cbd41ad231d7",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/results/README.md",
+      "destino": "archivo/2026-09-30/fem/results/README.md",
+      "sha256": "8614f396a4ca9fb868a4aef13e52340981ece30ca665179ae61ad472e9a36b13",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/results/auditoria_corridas.csv",
+      "destino": "archivo/2026-09-30/fem/results/auditoria_corridas.csv",
+      "sha256": "56fb8012c942f69c10bc1bcecd97c93bd5d02f9d40e58261a79d0a53a2ff91e7",
+      "accion": "archivado"
+    },
+    {
+      "origen": "fem/results/auditoria_corridas.json",
+      "destino": "archivo/2026-09-30/fem/results/auditoria_corridas.json",
+      "sha256": "91f4797cb48fb794b666ee0f0cd082ec5f089abda5ec6d496c8227217d0c9a8d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "figures/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "figures/fem/galga_10mm.png",
+      "destino": "archivo/2026-09-30/fem/mesh_study/10mm.png",
+      "sha256": "60dea76e122d856ed07071e3acc0c4c43538fa499f27bd7a81ede70596c60f8a",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "figures/fem/galga_15mm.png",
+      "destino": "archivo/2026-09-30/fem/mesh_study/15mm.png",
+      "sha256": "61bbabbb068f5d43bbca5b929a331eb22508638f8b5f0e368071f43b4033e9a3",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "figures/fig_diagramas_V_M.png",
+      "destino": "archivo/2026-09-30/figures/fig_diagramas_V_M.png",
+      "sha256": "635f457d6fe6d44c1f633772a9439be83664a3fb2106638cef2a2b1a599f1296",
+      "accion": "archivado"
+    },
+    {
+      "origen": "figures/fig_experimental.png",
+      "destino": "archivo/2026-09-30/figures/fig_experimental.png",
+      "sha256": "95dedd85bce21bcf1961e0c470e8e00ab614b9be3b9999a65f9bfdc7927b913c",
+      "accion": "archivado"
+    },
+    {
+      "origen": "python/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "python/analisis_viga.py",
+      "destino": "archivo/2026-09-30/python/analisis_viga.py",
+      "sha256": "f049c1bd861f8d1ff39d9bf3c74d3837c4ed634a94898af2ea262de009c65a0c",
+      "accion": "archivado"
+    },
+    {
+      "origen": "python/analytical_model.py",
+      "destino": "archivo/2026-09-30/python/analytical_model.py",
+      "sha256": "5fc519a6e09de6d6613a463b1e040206f989e5b5cc3c49cac5c98f6b86b65a3e",
+      "accion": "archivado"
+    },
+    {
+      "origen": "python/auditar_fem.py",
+      "destino": "archivo/2026-09-30/python/auditar_fem.py",
+      "sha256": "4ff4f21ece93bfa719ac45d6dd23e872b2494152a8c0a3fe5c8efc5340eb839e",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/.gitkeep",
+      "destino": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accion": "marcador_vacio_retirado"
+    },
+    {
+      "origen": "report/README.md",
+      "destino": "archivo/2026-09-30/report/README.md",
+      "sha256": "997207aa84d08a016deaeb0a5e7ad3971afbef58be00bdfde16b62f610572211",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/figures/fig_cargas_fusion.png",
+      "destino": "archivo/2026-09-30/report/figures/fig_cargas_fusion.png",
+      "sha256": "488a5c995d6553eed9b161ff82ce452a073c0fe850fbcc0ff409a043029cd28c",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/figures/fig_diagramas_V_M.png",
+      "destino": "archivo/2026-09-30/figures/fig_diagramas_V_M.png",
+      "sha256": "635f457d6fe6d44c1f633772a9439be83664a3fb2106638cef2a2b1a599f1296",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "report/figures/fig_experimental.png",
+      "destino": "archivo/2026-09-30/figures/fig_experimental.png",
+      "sha256": "95dedd85bce21bcf1961e0c470e8e00ab614b9be3b9999a65f9bfdc7927b913c",
+      "accion": "duplicado_identico"
+    },
+    {
+      "origen": "report/informe_viga.tex",
+      "destino": "archivo/2026-09-30/report/informe_viga.tex",
+      "sha256": "7acea220b544def76e04a6822aaf2bc1872cce809fc7d16f44a2a9580acfde90",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/informe_viga_revisado.pdf",
+      "destino": "archivo/2026-09-30/report/informe_viga_revisado.pdf",
+      "sha256": "93fde9c43c588548eadc7a6b6c631fce4611e9a1366b5b971f4b8dc23bc8b8b4",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/original/informe_viga_recibido.pdf",
+      "destino": "archivo/2026-09-30/report/original/informe_viga_recibido.pdf",
+      "sha256": "b570af3cefb7537790b7490b713b0a6b9b0d30d7ad284baacab9e39a71a9c780",
+      "accion": "archivado"
+    },
+    {
+      "origen": "report/original/informe_viga_recibido.tex",
+      "destino": "archivo/2026-09-30/report/original/informe_viga_recibido.tex",
+      "sha256": "bd684a44c7e86de6c661ddb24539d35872205da6bf97ba95c74f607e379d0b0d",
+      "accion": "archivado"
+    },
+    {
+      "origen": "tests/test_analysis.py",
+      "destino": "archivo/2026-09-30/tests/test_analysis.py",
+      "sha256": "fb7ca7ee0bdbece5c17611530184ae473f7b14b89a701f8b7e9fb71531b3ae1f",
+      "accion": "archivado"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+gmsh>=4.11
+vtk>=9.2
+Pillow>=10

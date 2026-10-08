@@ -6,3 +6,15 @@ __pycache__/
 *.FCBak
 .DS_Store
 Thumbs.db
+
+# Salidas locales regenerables; se conservan las figuras y resultados entregados.
+/codigo/figures/
+/fem/capturas/
+/fem/corridas/
+/fem/fig_nodos_galga_*.png
+/fem/fig_convergencia_vm.png
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
