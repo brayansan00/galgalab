@@ -8,11 +8,11 @@ __pycache__/
 Thumbs.db
 
 # Salidas locales regenerables; se conservan las figuras y resultados entregados.
-/codigo/figures/
-/fem/capturas/
-/fem/corridas/
-/fem/fig_nodos_galga_*.png
-/fem/fig_convergencia_vm.png
+/fuentes/codigo/figures/
+/fuentes/fem/capturas/
+/fuentes/fem/corridas/
+/fuentes/fem/fig_nodos_galga_*.png
+/fuentes/fem/fig_convergencia_vm.png
 *.aux
 *.log
 *.out
